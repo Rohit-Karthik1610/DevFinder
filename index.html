@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>devfinder</h1>
+    </header>
+
+    <div class="search-box">
+        <div id="searchIcon" class="icon"></div>
+        <input type="text" id="searchInput" placeholder="Search GitHub username…">
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="profile-card">
+
+        <img class="avatar" id="avatar" alt="Profile Picture">
+
+        <div class="profile-header">
+            
+            <div class="top-row">
+                <div>
+                    <h2 id="name"></h2>
+                    <p class="username" id="username"></p>
+                </div>
+                <p class="joined" id="joined"></p>
+            </div>
+
+            <p class="bio" id="bio"></p>
+        </div>
+
+        <div class="stats-box">
+            <div>
+                <p class="label">Repos</p>
+                <p class="value" id="repos"></p>
+            </div>
+            <div>
+                <p class="label">Followers</p>
+                <p class="value" id="followers"></p>
+            </div>
+            <div>
+                <p class="label">Following</p>
+                <p class="value" id="following"></p>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-item">
+                <div id="locationIcon" class="icon"></div>
+                <span id="location"></span>
+            </div>
+            <div class="info-item">
+                <div id="twitterIcon" class="icon"></div>
+                <span id="twitter"></span>
+            </div>
+            <div class="info-item">
+                <div id="linkIcon" class="icon"></div>
+                <a id="blog" href="#" target="_blank"></a>
+            </div>
+            <div class="info-item">
+                <div id="buildingIcon" class="icon"></div>
+                <span id="company"></span>
+            </div>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

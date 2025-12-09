@@ -1,0 +1,127 @@
+body {
+    background: #0A1E3A;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #7BA6FF;
+}
+
+.search-box {
+    background: #112B54;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    flex: 1;
+    font-size: 16px;
+}
+
+.search-box input::placeholder {
+    color: gray;
+}
+
+.search-box button {
+    background: #1976FF;
+    border: none;
+    padding: 10px 18px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profile-card {
+    background: #112B54;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile-header {
+    margin-left: 120px;
+    margin-top: -100px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.username {
+    color: #7BA6FF;
+    margin-top: -8px;
+}
+
+.bio {
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+.joined {
+    color: #AFC7FF;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.stats-box {
+    background: #0A1E3A;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stats-box .label {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.stats-box .value {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-section {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 12px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-item span, .info-item a {
+    margin-left: 8px;
+    color: white;
+    text-decoration: none;
+}
